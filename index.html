@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>bootstrap5</title>
+  </head>
+  <body>
+  	<section>
+  		<div class="container">
+  			<h1>Lorem ipsum, dolor sit amet.</h1>
+  			<p><code>&lt;section&gt;</code> should be wrapped as inline</p>
+  			<p><pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+			&lt;p&gt;And another line of sample text here...&lt;/p&gt;
+			</code></pre></p>
+			<p><var>y</var> = <var>m</var><var>x</var> + <var>b</var></p>
+			<p>To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+			To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd></p>
+			<h3>
+			  Fancy display heading
+			  <small class="text-muted">With faded secondary text</small>
+			</h3>
+			<h1 class="display-2">Display 2</h1>
+			<p>You can use the mark tag to <mark>highlight</mark> text.</p>
+			<p><del>This line of text is meant to be treated as deleted text.</del></p>
+			<p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+			<p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+			<p><u>This line of text will render as underlined.</u></p>
+			<p><small>This line of text is meant to be treated as fine print.</small></p>
+			<p><strong>This line rendered as bold text.</strong></p>
+			<p><em>This line rendered as italicized text.</em></p>
+			<p><abbr title="attribute">attr</abbr></p>
+			<p><abbr title="HyperText Markup Language" class="initialism">HTML</abbr></p>
+			<blockquote class="blockquote">
+  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			</blockquote>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="image/idea.jpg" class="img-fluid" alt="bootstrap">
+				</div>
+				<div class="col-md-4">
+					<img src="image/idea.jpg" class="rounded float-start" alt="bootstrap">
+				</div>
+				<div class="col-md-4">
+					<img src="image/idea.jpg" class="rounded float-end" alt="bootstrap">
+				</div>
+			</div>
+			<div class="table-responsive">
+			<table class="table table-bordered caption-top">
+				<caption>List of users</caption>
+			  <thead>
+			    <tr class="table-primary">
+			      <th scope="col">Roll</th>
+			      <th scope="col">Name</th>
+			      <th scope="col">Mark</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr class="table-secondary" class="table-active">
+			      <td>1</td>
+			      <td>Shahana</td>
+			      <td>95</td>
+			    </tr>
+			    <tr class="table-secondary">
+			      <td>2</td>
+			      <td>Shamima</td>
+			      <td>90</td>
+			    </tr>
+			    <tr class="table-success">
+			      <td colspan="2">Shadika</td>
+			      <td>85</td>
+			    </tr>
+			  </tbody>
+			</table>
+			</div>
+			<!-- form -->
+			<h3>form practise</h3>
+			<div class="mb-3">
+			  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			</div>
+			<div class="mb-3">
+			  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			</div>
+			<div class="mb-3">
+			  <label for="formFile" class="form-label">Default file input example</label>
+			  <input class="form-control" type="file" id="formFile">
+			</div>
+			<div class="mb-3">
+			  <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+			  <input class="form-control" type="file" id="formFileMultiple" multiple>
+			</div>
+			<div class="mb-3">
+			  <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+			  <input class="form-control" type="file" id="formFileDisabled" disabled>
+			</div>
+			<div class="mb-3">
+			  <label for="formFileSm" class="form-label">Small file input example</label>
+			  <input class="form-control form-control-sm" id="formFileSm" type="file">
+			</div>
+			<div>
+			  <label for="formFileLg" class="form-label">Large file input example</label>
+			  <input class="form-control form-control-lg" id="formFileLg" type="file">
+			</div>
+			<label for="exampleColorInput" class="form-label">Color picker</label>
+			<input type="color" class="form-control form-control-color" id="exampleColorInput" value="#07CF15" title="Choose your color">
+			<select class="form-select" aria-label="Default select example">
+			  <option selected>Select your course</option>
+			  <option value="1">Web Development</option>
+			  <option value="2">Digital marketing</option>
+			  <option value="3">Graphics design</option>
+			</select>
+			<select class="form-select" aria-label="Disabled select example" disabled>
+			  <option selected>Select your course</option>
+			  <option value="1">Web Development</option>
+			  <option value="2">Digital marketing</option>
+			  <option value="3">Graphics design</option>
+			</select>
+			<div class="input-group mb-3">
+			  <span class="input-group-text" id="basic-addon1">@</span>
+			  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+			</div>
+
+			<div class="input-group mb-3">
+			  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+			  <span class="input-group-text" id="basic-addon2">@example.com</span>
+			</div>
+
+			<label for="basic-url" class="form-label">Your vanity URL</label>
+			<div class="input-group mb-3">
+			  <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+			  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+			</div>
+
+			<div class="input-group mb-3">
+			  <span class="input-group-text">$</span>
+			  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+			  <span class="input-group-text">.00</span>
+			</div>
+
+			<div class="input-group mb-3">
+			  <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+			  <span class="input-group-text">@</span>
+			  <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+			</div>
+
+			<div class="input-group">
+			  <span class="input-group-text">With textarea</span>
+			  <textarea class="form-control" aria-label="With textarea"></textarea>
+			</div>
+			<form>
+			  <div class="mb-3">
+			    <label for="exampleInputEmail1" class="form-label">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+			    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+			  </div>
+			  <div class="mb-3">
+			    <label for="exampleInputPassword1" class="form-label">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" required>
+			  </div>
+			  <div class="mb-3 form-check">
+			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<div class="container">
+			<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <label for="full_name" class="form-label">Full name</label>
+    <input type="text" class="form-control" id="full_name" placeholder="Enter your name " required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="invalid-feedback">
+      Please enter your name.
+    </div>
+  </div>
+  
+  <div class="col-md-6">
+    <label for="validationCustom03" class="form-label">City</label>
+    <input type="text" class="form-control" id="validationCustom03" required>
+    <div class="invalid-feedback">
+      Please provide a valid city.
+    </div>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+	</form>
+		</div>
+  	</section>
+    
+
+    <!-- JS links -->
+    
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+    	// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+    </script>
+    
+  </body>
+</html>
